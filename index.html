@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthak Ojha</title>
+    <meta name="description" content="Sarthak Ojha - Passionate developer from Nepal creating innovative digital experiences with modern web technologies.">
+    <meta property="og:title" content="Sarthak Ojha - Building Digital Solutions">
+    <meta property="og:description" content="Passionate developer from Nepal creating innovative digital experiences">
+    <meta property="og:image" content="your-image-url">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-text">Loading Portfolio...</div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon"></span>
+                <span>Sarthak</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#credentials" class="nav-link">Credentials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-greeting">
+                        <span class="greeting-text">👋 Hello, I'm</span>
+                    </div>
+                    <div class="hero-title">
+                        <span class="title-main">Sarthak Ojha</span>
+                        <span class="title-sub">Building Digital Solutions</span>
+                    </div>
+                    <p class="hero-description">
+                       I make websites and apps with smart design. I'm passionate about tech and business.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects Done</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">World Record</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <div class="editor-controls">
+                                <div class="control red"></div>
+                                <div class="control yellow"></div>
+                                <div class="control green"></div>
+                            </div>
+                            <div class="editor-title">building-solutions.js</div>
+                        </div>
+                        <div class="editor-content">
+                            <div class="code-line">
+                                <span class="line-number">1</span>
+                                <span class="code-text"><span class="keyword">const</span> <span class="variable">developer</span> = {</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">2</span>
+                                <span class="code-text">  <span class="property">name</span>: <span class="string">'Sarthak Ojha'</span>,</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">3</span>
+                                <span class="code-text">  <span class="property">location</span>: <span class="string">'Nepal'</span>,</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">4</span>
+                                <span class="code-text">  <span class="property">passion</span>: <span class="string">'Building Digital Solutions'</span>,</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">5</span>
+                                <span class="code-text">  <span class="property">skills</span>: [<span class="string">'Node.js'</span>,<span class="string">'Flutter'</span>],</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">6</span>
+                                <span class="code-text">  <span class="property">achievement</span>: <span class="string">'Guinness World Record'</span></span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">7</span>
+                                <span class="code-text">};</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Passionate about business and technology with continuous learning</h2>
+                <p class="section-subtitle">I'm a passionate student developer with a love for creating meaningful digital experiences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-intro">
+                    <p>My journey in tech spans across web development, mobile apps, and design. I believe in the power of technology to solve real-world problems and create positive impact.</p>
+                    <p>Along the way, I've been fortunate to achieve recognition in technology education and digital marketing, including professional certifications and industry acknowledgments that validate my commitment to excellence.</p>
+                    
+                    <div class="quick-highlights">
+                        <div class="highlight-item fade-in">
+                            <div class="highlight-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Guinness World Record Holder</h4>
+                                <p>Achievement in Microsoft AI </p>
+                            </div>
+                        </div>
+                        <div class="highlight-item fade-in">
+                            <div class="highlight-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Multiple Certifications</h4>
+                                <p>Digital Marketing Professional</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item fade-in">
+                            <div class="highlight-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Full-Stack Developer</h4>
+                                <p>Modern Web Technologies</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h3>Skills & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category fade-in">
+                            <div class="skill-header">
+                                <i class="fas fa-laptop-code"></i>
+                                <h4>Frontend Development</h4>
+                            </div>
+                            <div class="skill-list">
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">HTML5</span>
+                                <span class="skill-tag">CSS3</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">Next.js</span>
+                            </div>
+                        </div>
+                        <div class="skill-category fade-in">
+                            <div class="skill-header">
+                                <i class="fas fa-server"></i>
+                                <h4>Backend Development</h4>
+                            </div>
+                            <div class="skill-list">
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">Firebase</span>
+                                <span class="skill-tag">SQLite</span>
+                            </div>
+                        </div>
+                        <div class="skill-category fade-in">
+                            <div class="skill-header">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h4>Mobile Development</h4>
+                            </div>
+                            <div class="skill-list">
+                                <span class="skill-tag">Flutter</span>
+                                <span class="skill-tag">Dart</span>   
+                                <span class="skill-tag">Firebase</span>
+                                <span class="skill-tag">Supabase</span>
+                            </div>
+                        </div>
+                        <div class="skill-category fade-in">
+                            <div class="skill-header">
+                                <i class="fas fa-tools"></i>
+                                <h4>Tools & Others</h4>
+                            </div>
+                            <div class="skill-list">
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Figma</span>
+                                <span class="skill-tag">Postman</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">A collection of projects that showcase my skills and passion</h2>
+                <p class="section-subtitle">Each project represents a unique challenge and learning opportunity</p>
+            </div>
+            <div class="projects-grid">
+        <div class="project-card featured fade-in">
+        <div class="project-image">
+            <img src="images/rental.png" alt="Vehicle Rental System Screenshot" class="project-thumbnail"/>
+            <div class="project-status">Featured</div>
+            <div class="project-overlay">
+                <div class="project-links">
+                    <a href="https://github.com/Sarthak-Ojha" class="project-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-content">
+            <div class="project-header">
+                <h3>Vehicle Rental System</h3>
+                <span class="project-type">Web Application</span>
+            </div>
+            <p class="project-description">
+                Comprehensive rental solution with real-time inventory management, payment processing, user authentication, and admin dashboard. Built with modern web technologies for scalability and performance.
+            </p>
+            <div class="project-features">
+                <span class="feature">Real-time Updates</span>
+                <span class="feature">Payment Gateway</span>
+                <span class="feature">Admin Dashboard</span>
+                <span class="feature">User Authentication</span>
+            </div>
+            <div class="project-tech">
+                <span class="tech-tag primary">PHP</span>
+                <span class="tech-tag">SQLite</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JS</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card fade-in">
+        <div class="project-image">
+            <img src="images/gear.png" alt="Outer Gear Rental Website Screenshot" class="project-thumbnail"/>
+            <div class="project-overlay">
+                <div class="project-links">
+                    <a href="https://github.com/Sarthak-Ojha/Gear_rental_website" class="project-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-header">
+                <h3>Outer Gear Rental Website </h3>
+                <span class="project-type">Educational Platform</span>
+            </div>
+            <p class="project-description">
+                Web-based platform for renting outdoor gear with user-friendly interface, secure payment options, and comprehensive gear management system. Ideal for adventure enthusiasts.
+            </p>
+            <div class="project-features">
+                <span class="feature">Renting items</span>
+                <span class="feature">Cart system</span>
+                <span class="feature">Instant Check-out</span>
+            </div>
+            <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Django</span>
+                <span class="tech-tag">SQLite</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card fade-in">
+        <div class="project-image">
+            <img src="images/quiz.png" alt="Quiz Mobile App" class="project-thumbnail"/>
+            <div class="project-overlay">
+                <div class="project-links">
+                    <a href="https://github.com/Sarthak-Ojha/nepal_quiz_app" class="project-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-header">
+                <h3>Quiz Mobile App</h3>
+                <span class="project-type">Mobile Application</span>
+            </div>
+            <p class="project-description">
+                Cross-platform quiz app with offline capabilities, progress tracking, and intuitive design for enhanced learning and assessment experience.
+            </p>
+            <div class="project-features">
+                <span class="feature">Offline Mode</span>
+                <span class="feature">Progress Tracking</span>
+                <span class="feature">Cross-platform</span>
+            </div>
+            <div class="project-tech">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Dart</span>
+                <span class="tech-tag">Firebase</span>
+            </div>
+        </div>
+        </div>
+
+         <div class="project-card fade-in">
+        <div class="project-image">
+            <img src="images/CS.png" alt="Quiz Mobile App Screenshot" class="project-thumbnail"/>
+            <div class="project-overlay">
+                <div class="project-links">
+                    <a href="#" class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-header">
+                <h3>Coming Soon</h3>
+                <span class="project-type">Coming Soon</span>
+            </div>
+            <p class="project-description">
+               Coming Soon
+            </p>
+            <div class="project-features">
+                <span class="feature">Coming Soon</span>
+                <span class="feature">Coming Soon</span>
+                <span class="feature">Coming Soon</span>
+            </div>
+            <div class="project-tech">
+                <span class="tech-tag">Coming Soon</span>
+                <span class="tech-tag">Coming Soon</span>
+                <span class="tech-tag">Coming Soon</span>
+            </div>
+        </div>
+        </div>
+         </div>
+         </div>
+    </section>
+
+    <!-- Enhanced Credentials Section -->
+    <section id="credentials" class="credentials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Recognition</span>
+                <h2 class="section-title">Credentials</h2>
+                <p class="section-subtitle">Professional certifications and recognitions that demonstrate my commitment to excellence in technology</p>
+            </div>
+
+            <!-- Credentials Logos Scroller -->
+            <div class="credentials-logos">
+    <div class="logo-scroller">
+        <!-- First set of logos -->
+        <div class="logo-item gwr-logo">
+            <img src="images/GWR.png" alt="Guinness World Records">
+            <span class="logo-label">Guinness World Records</span>
+        </div>
+        <div class="logo-item google-logo">
+            <img src="images/google.png" alt="Google">
+            <span class="logo-label">Google</span>
+        </div>
+        <div class="logo-item microsoft-logo">
+            <img src="images/microsoft.png" alt="Microsoft">
+            <span class="logo-label">Microsoft</span>
+        </div>
+        <div class="logo-item aws-logo">
+            <img src="images/OU.png" alt="The Open University">
+            <span class="logo-label">The Open University</span>
+        </div>
+        <div class="logo-item meta-logo">
+            <img src="images/iab.png" alt="IAB Europe">
+            <span class="logo-label">IAB Europe</span>
+        </div>
+        
+        <!-- Duplicate set for seamless loop -->
+        <div class="logo-item gwr-logo">
+            <img src="images/GWR.png" alt="Guinness World Records">
+            <span class="logo-label">Guinness World Records</span>
+        </div>
+        <div class="logo-item google-logo">
+            <img src="images/google.png" alt="Google">
+            <span class="logo-label">Google</span>
+        </div>
+        <div class="logo-item microsoft-logo">
+            <img src="images/microsoft.png" alt="Microsoft">
+            <span class="logo-label">Microsoft</span>
+        </div>
+        <div class="logo-item aws-logo">
+            <img src="images/OU.png" alt="The Open University">
+            <span class="logo-label">The Open University</span>
+        </div>
+        <div class="logo-item meta-logo">
+            <img src="images/iab.png" alt="IAB Europe">
+            <span class="logo-label">IAB Europe</span>
+        </div>
+    </div> </div>
+
+        </div>
+    </section>
+
+    <!-- Enhanced Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Create Something Amazing Together</h2>
+                <p class="section-subtitle">I'm always excited to discuss new opportunities, collaborate on innovative projects, or simply connect with fellow technology enthusiasts</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Me</h4>
+                            <p>For project inquiries and collaborations</p>
+                            <a href="mailto:sarthakojha.works@gmail.com" class="contact-link">sarthakojha.works@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Available for remote collaborations worldwide</p>
+                            <span class="contact-link">Nepal</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-section">
+                    <h3>Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/Sarthak-Ojha" class="social-link github">
+                            <i class="fab fa-github"></i>
+                            <span>Follow my code journey</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sarthak-ojha/" class="social-link linkedin">
+                            <i class="fab fa-linkedin"></i>
+                            <span>Professional networking</span>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-brand">
+                    <h3>Sarthak Ojha</h3>
+                </div>
+                <div class="footer-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>sarthakojha.works@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Nepal</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#credentials">Credentials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://github.com/Sarthak-Ojha" class="social-footer-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/sarthak-ojha/" class="social-footer-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/_sarthakojha/" class="social-footer-link">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-divider"></div>
+        
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p>&copy; 2025 Sarthak Ojha. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Enhanced Back to Top Button -->
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <div class="back-to-top-content">
+        <i class="fas fa-arrow-up"></i>
+        <span class="back-to-top-text">Top</span>
+    </div>
+    <div class="back-to-top-progress">
+        <svg class="progress-ring" width="60" height="60">
+            <circle class="progress-ring-circle" cx="30" cy="30" r="26" stroke-width="3"></circle>
+        </svg>
+    </div>
+</button>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
